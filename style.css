@@ -1,3 +1,7 @@
+body {
+	display: block;
+	margin: 0;
+}
 p {
 	font-size: 20px;
 	font-family: Helvetica Neue, Helvetica, Arial, Times;
@@ -7,8 +11,13 @@ p {
 	color: gray;
 }
 
+a {
+	margin: 50px auto;
+	cursor: default;
+}
+
 img {
-	padding: 50px auto 20px;
+	margin: 50px auto 20px auto;
 	height: 600px;
-	margin: 0 auto;
+	display: block;
 }
