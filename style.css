@@ -1,6 +1,8 @@
 body {
 	display: block;
 	margin: 0;
+	background: #000 url('backdrop.png') fixed;
+	background-position: cover;
 }
 video#maya {
 	position: fixed; right: 0; bottom: 0;
