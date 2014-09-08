@@ -14,17 +14,61 @@ video#maya {
 	left: 100px;
 	color:
 }
-p {
-	font-size: 20px;
+h3,p {
 	font-family: Helvetica Neue, Helvetica, Arial, Times;
 	font-weight: 200;
+	color: #FFF;	
+}
+h3 {
+	font-size: 30px;
+}
+p {
+	font-size: 20px;
+	font-weight: 200;
 	line-height: 20px;
-	color: #000;
+}
+
+input {
+	padding: 10px;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	color: #FFF;
+	margin: 10px 0px;
+	background: rgba(255,255,255,0);
 }
 
 a {
-	margin: 50px auto;
-	cursor: default;
+	color: #FFF;
+	padding: 5px 10px;
+	border: 1px solid #FFF;
+	border-radius: 5px;
+	text-decoration: none;
+}
+a:hover, a:active {
+	text-decoration: none;
+	color: #FFF;
+	border: 1px solid #909;
+}
+
+input:hover {
+	color: #FFF;
+	border: 1px solid #909;
+}
+
+::-webkit-input-placeholder {
+   color: #FFF;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #FFF;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #FFF;  
+}
+
+:-ms-input-placeholder {  
+   color: #FFF;  
 }
 
 img {
