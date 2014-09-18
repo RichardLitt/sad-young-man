@@ -1,26 +1,28 @@
 body {
 	display: block;
 	margin: 0;
-	background: #000 url('backdrop.png') fixed;
-	background-position: cover;
+	background: #fff url('hawk.jpg') fixed;
+	/*background-position: contain;*/
+	background-size: cover;
 }
-video#maya {
+/*video#maya {
 	position: fixed; right: 0; bottom: 0;
 	min-width: 100%; min-height: 100%;
 	width: auto; height: auto; z-index: -100;
-}
+}*/
 .text {
 	position: fixed;
 	z-index: 10;
 	top: 0;
 	left: 100px;
-	color:
+	color: #5b5b5b;
+	padding-right: 30px;
 }
 h3,p {
 	font-family: Helvetica Neue, Helvetica, Arial, Times;
 	font-weight: 200;
 	line-height: 30px;
-	color: #FFF;	
+	color: #5b5b5b;	
 }
 h3 {
 	font-size: 30px;
@@ -33,49 +35,43 @@ p {
 
 input {
 	padding: 10px;
-	border: 1px solid #FFF;
+	border: 1px solid #5b5b5b;
 	border-radius: 5px;
-	color: #FFF;
+	color: #5b5b5b;
 	margin: 10px 0px;
 	background: rgba(255,255,255,0);
 }
 
 a {
-	color: #FFF;
+	color: #5b5b5b;
 	padding: 3px 10px;
-	border: 1px solid #FFF;
+	border: 1px solid #5b5b5b;
 	border-radius: 5px;
 	text-decoration: none;
 }
 a:hover, a:active {
 	text-decoration: none;
-	color: #FFF;
+	color: #5b5b5b;
 	border: 1px solid #909;
 }
 
 input:hover {
-	color: #FFF;
+	color: #5b5b5b;
 	border: 1px solid #909;
 }
 
 ::-webkit-input-placeholder {
-   color: #FFF;
+   color: #5b5b5b;
 }
 
 :-moz-placeholder { /* Firefox 18- */
-   color: #FFF;  
+   color: #5b5b5b;  
 }
 
 ::-moz-placeholder {  /* Firefox 19+ */
-   color: #FFF;  
+   color: #5b5b5b;  
 }
 
 :-ms-input-placeholder {  
-   color: #FFF;  
-}
-
-img {
-	margin: 50px auto 20px auto;
-	height: 600px;
-	display: block;
+   color: #5b5b5b;  
 }
